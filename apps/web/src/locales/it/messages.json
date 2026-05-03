@@ -107,7 +107,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        486
+        483
       ]
     ],
     "translation": "{0} etichette"
@@ -939,16 +939,16 @@
     "translation": "Si è verificato un errore imprevisto. Riprova più tardi."
   },
   "dtxpK2": {
-    "translation": "",
     "message": "Analyze",
     "placeholders": {},
     "comments": [],
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        48
+        47
       ]
-    ]
+    ],
+    "translation": ""
   },
   "YkfDoz": {
     "message": "Annual",
@@ -1010,6 +1010,10 @@
       [
         "src/views/settings/components/NewApiKeyModal.tsx",
         161
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        188
       ]
     ],
     "translation": "Nome chiave API"
@@ -1045,7 +1049,7 @@
     "origin": [
       [
         "src/views/settings/ApiSettings.tsx",
-        22
+        23
       ]
     ],
     "translation": "Chiavi API"
@@ -1478,6 +1482,10 @@
       [
         "src/views/public/board/index.tsx",
         132
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        195
       ]
     ],
     "translation": "Board"
@@ -1693,7 +1701,7 @@
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        49
+        48
       ],
       [
         "src/views/boards/components/TemplateBoards.tsx",
@@ -2221,7 +2229,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        346
+        343
       ]
     ],
     "translation": "Titolo della card"
@@ -2315,7 +2323,6 @@
     "translation": "ha modificato la data di scadenza in <0>{formattedDate}</0>"
   },
   "88XnH6": {
-    "translation": "",
     "message": "changed the type to <0>{0}</0>",
     "placeholders": {
       "0": [
@@ -2328,7 +2335,8 @@
         "src/views/card/components/ActivityList.tsx",
         165
       ]
-    ]
+    ],
+    "translation": ""
   },
   "pFGfsR": {
     "message": "Check out some of our favorite open source projects.",
@@ -2486,6 +2494,10 @@
       [
         "src/views/settings/components/NewApiKeyModal.tsx",
         136
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        149
       ]
     ],
     "translation": "Chiudi"
@@ -2503,16 +2515,16 @@
     "translation": "Revisione del codice"
   },
   "i2BTio": {
-    "translation": "",
     "message": "Coding",
     "placeholders": {},
     "comments": [],
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        47
+        46
       ]
-    ]
+    ],
+    "translation": ""
   },
   "EvArWh": {
     "message": "Collaborate seamlessly with your team.",
@@ -3017,7 +3029,7 @@
       ],
       [
         "src/views/board/components/NewCardForm.tsx",
-        551
+        548
       ],
       [
         "src/views/board/components/NewListForm.tsx",
@@ -3045,7 +3057,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        561
+        558
       ]
     ],
     "translation": "Crea card"
@@ -3125,7 +3137,7 @@
     "origin": [
       [
         "src/views/settings/ApiSettings.tsx",
-        30
+        32
       ]
     ],
     "translation": "Crea nuova chiave"
@@ -3137,7 +3149,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        448
+        445
       ],
       [
         "src/views/card/components/LabelSelector.tsx",
@@ -3161,6 +3173,22 @@
       ]
     ],
     "translation": "Crea nuova lista"
+  },
+  "9opfjA": {
+    "translation": "",
+    "message": "Create task feed key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/ApiSettings.tsx",
+        38
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        247
+      ]
+    ]
   },
   "A5hiCy": {
     "message": "Create template",
@@ -3193,7 +3221,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        226
+        227
       ],
       [
         "src/components/WorkspaceMenu.tsx",
@@ -3410,6 +3438,18 @@
       ]
     ],
     "translation": "Assistenza clienti"
+  },
+  "Og2Dog": {
+    "translation": "",
+    "message": "Daily To Do feed",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        20
+      ]
+    ]
   },
   "pvnfJD": {
     "message": "Dark",
@@ -3934,7 +3974,7 @@
       ],
       [
         "src/views/board/components/NewCardForm.tsx",
-        503
+        500
       ],
       [
         "src/views/card/index.tsx",
@@ -4895,7 +4935,7 @@
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        50
+        49
       ],
       [
         "src/components/FeedbackModal.tsx",
@@ -6031,7 +6071,7 @@
       ],
       [
         "src/views/board/components/NewCardForm.tsx",
-        452
+        449
       ],
       [
         "src/views/card/index.tsx",
@@ -6240,6 +6280,10 @@
       [
         "src/views/card/index.tsx",
         134
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        213
       ]
     ],
     "translation": "Lista"
@@ -6279,6 +6323,18 @@
       ]
     ],
     "translation": "Carica altre attività"
+  },
+  "hKLL+2": {
+    "translation": "",
+    "message": "Loading boards...",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        231
+      ]
+    ]
   },
   "0qyZ4b": {
     "message": "Loading permissions...",
@@ -6503,7 +6559,7 @@
       ],
       [
         "src/views/board/components/NewCardForm.tsx",
-        410
+        407
       ],
       [
         "src/views/card/index.tsx",
@@ -6762,7 +6818,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        329
+        326
       ]
     ],
     "translation": "Nuova card"
@@ -6843,6 +6899,18 @@
     ],
     "translation": "La nuova password deve essere diversa da quella attuale"
   },
+  "qay7qH": {
+    "translation": "",
+    "message": "New task feed key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        172
+      ]
+    ]
+  },
   "G1Gw0v": {
     "message": "New template",
     "placeholders": {},
@@ -6886,7 +6954,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        145
+        146
       ]
     ],
     "translation": "Nuovo workspace"
@@ -6954,6 +7022,18 @@
       ]
     ],
     "translation": "Nessun metodo di autenticazione attualmente disponibile"
+  },
+  "+ywIWA": {
+    "translation": "",
+    "message": "No boards are available in this workspace.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        236
+      ]
+    ]
   },
   "2Bu8xj": {
     "message": "No boards found",
@@ -7575,6 +7655,18 @@
     ],
     "translation": "Piattaforma"
   },
+  "XzGqY8": {
+    "translation": "",
+    "message": "Please check your board access and try again.",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        91
+      ]
+    ]
+  },
   "58AiWX": {
     "message": "Please confirm your new password",
     "placeholders": {},
@@ -7670,7 +7762,7 @@
     "origin": [
       [
         "src/components/CardTypeSelector.tsx",
-        61
+        60
       ],
       [
         "src/components/DeleteLabelConfirmation.tsx",
@@ -7682,7 +7774,7 @@
       ],
       [
         "src/components/NewWorkspaceForm.tsx",
-        109
+        110
       ],
       [
         "src/views/board/components/BoardDropdown.tsx",
@@ -7690,7 +7782,7 @@
       ],
       [
         "src/views/board/components/NewCardForm.tsx",
-        209
+        206
       ],
       [
         "src/views/board/components/NewListForm.tsx",
@@ -8401,7 +8493,7 @@
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        46
+        45
       ],
       [
         "src/views/boards/components/TemplateBoards.tsx",
@@ -8836,7 +8928,8 @@
         "src/components/CardTypeSelector.tsx",
         100
       ]
-    ]
+    ],
+    "obsolete": true
   },
   "JjEJSy": {
     "message": "Set up your workspace",
@@ -8885,7 +8978,7 @@
     "origin": [
       [
         "src/views/settings/ApiSettings.tsx",
-        18
+        19
       ]
     ],
     "translation": "Impostazioni | API"
@@ -9154,17 +9247,29 @@
     ],
     "translation": "Solo"
   },
-  "LbPk58": {
+  "wdxz7K": {
     "translation": "",
+    "message": "Source",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        120
+      ]
+    ]
+  },
+  "LbPk58": {
     "message": "Spike",
     "placeholders": {},
     "comments": [],
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        45
+        44
       ]
-    ]
+    ],
+    "translation": ""
   },
   "vnS6Rf": {
     "message": "SSO",
@@ -9259,16 +9364,16 @@
     "translation": "Successo"
   },
   "YledUl": {
-    "translation": "",
     "message": "Suggestion",
     "placeholders": {},
     "comments": [],
     "origin": [
       [
         "src/components/CardTypeBadge.tsx",
-        51
+        50
       ]
-    ]
+    ],
+    "translation": ""
   },
   "DBC3t5": {
     "message": "Sunday",
@@ -9333,6 +9438,18 @@
       ]
     ],
     "translation": "Sistema"
+  },
+  "jic4kV": {
+    "translation": "",
+    "message": "Task feed key created",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        102
+      ]
+    ]
   },
   "KM6m8p": {
     "message": "Team",
@@ -9746,6 +9863,10 @@
       [
         "src/views/settings/components/NewApiKeyModal.tsx",
         129
+      ],
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        143
       ]
     ],
     "translation": "Questa chiave API verrà mostrata solo una volta. Salvala in un luogo sicuro."
@@ -9865,7 +9986,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        189
+        190
       ]
     ],
     "translation": "Questo URL del workspace è già stato utilizzato"
@@ -9877,7 +9998,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        191
+        192
       ]
     ],
     "translation": "Questo URL dello workspace è riservato"
@@ -10047,7 +10168,6 @@
     "translation": "Scelto da team dinamici<0/>in tutto il mondo"
   },
   "+zy2Nq": {
-    "translation": "",
     "message": "Type",
     "placeholders": {},
     "comments": [],
@@ -10056,10 +10176,10 @@
         "src/views/card/index.tsx",
         125
       ]
-    ]
+    ],
+    "translation": ""
   },
   "WtTYSX": {
-    "translation": "",
     "message": "Types",
     "placeholders": {},
     "comments": [],
@@ -10068,7 +10188,8 @@
         "src/views/board/components/Filters.tsx",
         184
       ]
-    ]
+    ],
+    "translation": ""
   },
   "bZSICm": {
     "message": "Unable to add checklist item",
@@ -10161,7 +10282,7 @@
     "origin": [
       [
         "src/views/board/components/NewCardForm.tsx",
-        206
+        203
       ]
     ],
     "translation": "Impossibile creare la card"
@@ -10189,6 +10310,18 @@
       ]
     ],
     "translation": "Impossibile creare la lista"
+  },
+  "Cfthxc": {
+    "translation": "",
+    "message": "Unable to create task feed key",
+    "placeholders": {},
+    "comments": [],
+    "origin": [
+      [
+        "src/views/settings/components/NewTaskFeedKeyModal.tsx",
+        90
+      ]
+    ]
   },
   "YcyP2z": {
     "message": "Unable to create template",
@@ -10225,7 +10358,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        108
+        109
       ],
       [
         "src/views/onboarding/workspace-details/index.tsx",
@@ -10575,16 +10708,16 @@
     "translation": "Impossibile aggiornare il ruolo"
   },
   "HX2b+Q": {
-    "translation": "",
     "message": "Unable to update type",
     "placeholders": {},
     "comments": [],
     "origin": [
       [
         "src/components/CardTypeSelector.tsx",
-        60
+        59
       ]
-    ]
+    ],
+    "translation": ""
   },
   "V1o9Jo": {
     "message": "Unable to update webhook",
@@ -10939,7 +11072,6 @@
     "translation": "ha aggiornato il titolo in <0>{0}</0>"
   },
   "RYmu2a": {
-    "translation": "",
     "message": "updated the type",
     "placeholders": {},
     "comments": [],
@@ -10948,7 +11080,8 @@
         "src/views/card/components/ActivityList.tsx",
         131
       ]
-    ]
+    ],
+    "translation": ""
   },
   "IelE1h": {
     "message": "Upgrade to Pro",
@@ -11153,7 +11286,7 @@
     "origin": [
       [
         "src/views/settings/ApiSettings.tsx",
-        25
+        26
       ]
     ],
     "translation": "Visualizza e gestisci le tue chiavi API."
@@ -11614,7 +11747,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        164
+        165
       ],
       [
         "src/views/onboarding/workspace-details/index.tsx",
@@ -11734,7 +11867,7 @@
     "origin": [
       [
         "src/components/NewWorkspaceForm.tsx",
-        178
+        179
       ]
     ],
     "translation": "workspace-url"

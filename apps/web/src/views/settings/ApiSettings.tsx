@@ -8,6 +8,7 @@ import { PageHead } from "~/components/PageHead";
 import { useModal } from "~/providers/modal";
 import ApiKeyList from "./components/ApiKeyList";
 import NewApiKeyModal from "./components/NewApiKeyModal";
+import NewTaskFeedKeyModal from "./components/NewTaskFeedKeyModal";
 import { RevokeApiKeyConfirmation } from "./components/RevokeApiKeyConfirmation";
 
 export default function ApiSettings() {
@@ -26,9 +27,17 @@ export default function ApiSettings() {
         </p>
 
         <div className="mb-4 flex items-center justify-between">
-          <Button variant="primary" onClick={() => openModal("NEW_API_KEY")}>
-            {t`Create new key`}
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button variant="primary" onClick={() => openModal("NEW_API_KEY")}>
+              {t`Create new key`}
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() => openModal("NEW_TASK_FEED_KEY")}
+            >
+              {t`Create task feed key`}
+            </Button>
+          </div>
         </div>
 
         <ApiKeyList />
@@ -46,6 +55,12 @@ export default function ApiSettings() {
         isVisible={isOpen && modalContentType === "REVOKE_API_KEY"}
       >
         <RevokeApiKeyConfirmation />
+      </Modal>
+      <Modal
+        modalSize="sm"
+        isVisible={isOpen && modalContentType === "NEW_TASK_FEED_KEY"}
+      >
+        <NewTaskFeedKeyModal />
       </Modal>
 
       {/* Global modals */}

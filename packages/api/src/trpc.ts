@@ -63,6 +63,23 @@ const createAuthWithHeaders = (
           headers,
           query: { referenceId: input.workspacePublicId },
         }),
+      createApiKey: (input: {
+        name?: string;
+        userId: string;
+        prefix?: string;
+        metadata?: Record<string, unknown>;
+        permissions?: Record<string, string[]>;
+      }) =>
+        auth.api.createApiKey({
+          body: input,
+        }),
+      verifyApiKey: (input: {
+        key: string;
+        permissions?: Record<string, string[]>;
+      }) =>
+        auth.api.verifyApiKey({
+          body: input,
+        }),
     },
   };
 };
